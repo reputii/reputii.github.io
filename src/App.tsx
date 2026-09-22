@@ -5,6 +5,7 @@ import CoreConcepts from "./components/sections/CoreConcepts/CoreConcepts";
 import Faq from "./components/sections/Faq/Faq";
 import TrustNotice from "./components/sections/TrustNotice/TrustNotice";
 import CtaWaitlist from "./components/sections/CtaWaitlist/CtaWaitlist";
+import Footer from "./components/Footer/Footer";
 
 /**
  * Reputii 단독 사이트. 회사 산하 서비스가 아니라 Reputii 자체가 사이트
@@ -21,6 +22,7 @@ function App() {
       <Faq />
       <TrustNotice />
       <CtaWaitlist />
+      <Footer />
     </main>
   );
 }
