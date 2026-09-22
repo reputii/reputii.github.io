@@ -1,0 +1,18 @@
+.section {
+  padding: var(--space-lg) var(--space-md);
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text {
+  color: var(--color-muted);
+  margin: 0 0 var(--space-xs);
+}
+
+.smallText {
+  color: var(--color-muted);
+  font-size: 0.8rem;
+  font-style: italic;
+  margin: 0;
+}
